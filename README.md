@@ -18,8 +18,9 @@
    cd your-assignment-folder
    ```
 
-3. Simple Submit
+
+## Simple Submission
 
 ```bash
-bash sumbit.ch
+bash submit.ch
 ```

@@ -17,7 +17,7 @@ git commit -m "$COMMIT_MSG"
 git push
 
 # Done message
-echo "✅ Submitted successfully!"
-echo "📅 Commit message: $COMMIT_MSG"
-echo "💡 You may now close VS Code or run 'Dev Containers: Reopen Locally' to stop the container."
+echo "Submitted successfully!"
+echo "Commit message: $COMMIT_MSG"
+echo "You may now close VS Code or run 'Dev Containers: Reopen Locally' to stop the container."
 
