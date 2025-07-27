@@ -1,0 +1,6 @@
+numpy
+matplotlib
+notebook
+jupyter
+ipython
+pylance

@@ -1,0 +1,28 @@
+{
+  "name": "Jupyter Notebook Assignment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.jupyterServerType": "local"
+        },
+  
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]}
+  },
+  
+  "postCreateCommand": "pip3 install -r requirements.txt",
+
+  "portsAttributes": {
+    "8888": {
+      "onAutoForward": "ignore"
+    }
+  },
+  "remoteUser": "vscode"
+}
