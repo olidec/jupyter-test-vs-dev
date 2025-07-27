@@ -4,3 +4,4 @@ notebook
 jupyter
 ipython
 pylance
+nbconvert

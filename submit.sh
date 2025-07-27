@@ -3,6 +3,8 @@
 # Stop on any error
 set -e
 
+jupyter nbconvert --to markdown assigment.ipynb
+
 # Create timestamp
 TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
 COMMIT_MSG="Submission at $TIMESTAMP"

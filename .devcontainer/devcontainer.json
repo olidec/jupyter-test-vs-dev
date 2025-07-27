@@ -8,21 +8,17 @@
     "vscode": {
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "jupyter.jupyterServerType": "local"
-        },
-  
+        "jupyter.jupyterServerType": "local",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
       "extensions": [
         "ms-python.python",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "Leytton.jupyter-to-markdown"
       ]}
   },
   
   "postCreateCommand": "pip3 install -r requirements.txt",
 
-  "portsAttributes": {
-    "8888": {
-      "onAutoForward": "ignore"
-    }
-  },
   "remoteUser": "vscode"
 }
