@@ -10,4 +10,5 @@ RUN apt-get update && apt-get install -y \
 # Create user (VS Code expects this)
 RUN useradd -m vscode
 USER vscode
+
 WORKDIR /workspace
