@@ -17,3 +17,9 @@
    git clone <your-assignment-repo-url>
    cd your-assignment-folder
    ```
+
+3. Simple Submit
+
+```bash
+bash sumbit.ch
+```
