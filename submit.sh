@@ -1,5 +1,7 @@
 #!/bin/bash
 
+python -m nbconvert --to markdown assignment.ipynb
+
 # Stop on any error
 set -e
 
