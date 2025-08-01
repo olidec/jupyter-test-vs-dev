@@ -5,3 +5,4 @@ jupyter
 ipython
 pylance
 nbconvert
+ipywidgets
