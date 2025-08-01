@@ -2,6 +2,7 @@ numpy
 matplotlib
 notebook
 jupyter
+jupyterlab-widgets
 ipython
 pylance
 nbconvert
