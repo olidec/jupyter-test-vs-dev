@@ -7,3 +7,5 @@ ipython
 pylance
 nbconvert
 ipywidgets
+pytamaro
+ipycanvas
